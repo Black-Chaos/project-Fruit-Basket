@@ -23,12 +23,22 @@
 body {
   font: 400 14px/1.29 'DM Sans', sans-serif;
   letter-spacing: -0.04em;
-  background-color: var(--brand-color);
+  background-color: var(--body-bg);
   color: var(--prime-text-color);
 }
 
 section {
-  margin-bottom: 150px;
+  margin-bottom: 80px;
+}
+@media only screen and (min-width: 734px) {
+  section {
+    margin-bottom: 144px;
+  }
+}
+@media only screen and (min-width: 1246px) {
+  section {
+    margin-bottom: 150px;
+  }
 }
 
 .container {
