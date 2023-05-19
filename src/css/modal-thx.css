@@ -1,9 +1,3 @@
-button {
-    font-family: inherit;
-    color: currentColor;
-    cursor: pointer;
-}
-
 .thank {
     max-width: 335px;
     background-color: var(--bg-modal-thx);
@@ -21,15 +15,11 @@ button {
 
 }
 
-.thank-x {
-
-    stroke: var(--second-bg);
-
-}
+.thank-x {}
 
 .thank-x-tab {
     display: none;
-    stroke: var(--second-bg);
+
 
 }
 
