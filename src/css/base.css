@@ -23,8 +23,8 @@
 body {
   font: 400 14px/1.29 'DM Sans', sans-serif;
   letter-spacing: -0.04em;
-  background-color: var(--body-bg);
   color: var(--prime-text-color);
+  background-color: var(--body-bg);
 }
 
 section {
