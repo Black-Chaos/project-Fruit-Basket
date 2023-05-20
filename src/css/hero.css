@@ -84,14 +84,12 @@
 .hero-anchor {
   position: absolute;
   bottom: -28px;
-}
 
-.hero-btn {
   min-width: 80px;
   min-height: 80px;
-  padding: 14px 8px;
+  padding: 20px 8px;
 
-  font-family: inherit;
+  /* font-family: inherit; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
@@ -99,19 +97,21 @@
   text-transform: uppercase;
   text-align: center;
   color: var(--brand-color);
+  background-color: #ffffff;
 
   border: none;
   border-radius: 50%;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-anchor:hover,
+.hero-anchor:focus {
   color: var(--card-accent-color);
 }
 
-.hero-btn > span {
+.hero-anchor > span {
   display: inline-block;
   transform: rotate(-14deg);
+  width: 57px;
 }
 
 /* Hero element left side */
@@ -132,8 +132,8 @@
 }
 
 .hero-fruit.watermelon {
-  position: relative;
-  padding: 106px 20px;
+  padding-top: 28px;
+  padding-bottom: 43px;
   width: 249px;
   height: 387px;
   border-radius: 500px;
@@ -143,12 +143,9 @@
 }
 
 .hero-fruit-title {
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 28px;
+  margin-bottom: 62px;
 
   font-weight: 400;
   font-size: 12px;
@@ -158,14 +155,15 @@
 
 .hero-fruit-element {
   margin: 0 auto;
-  margin-bottom: 5px;
+  /* margin-bottom: 2px; */
 }
 
 .element-text {
-  display: inline-block;
+  display: block;
   width: 155px;
+  margin: 0 auto;
 
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: -0.04em;
@@ -220,8 +218,8 @@
 }
 
 .hero-fruit.strawberry {
-  position: relative;
-  padding: 67px 29px;
+  padding-top: 28px;
+  padding-bottom: 40px;
   width: 249px;
   height: 387px;
   border-radius: 500px;
@@ -229,9 +227,13 @@
   text-align: center;
 }
 
+.hero-fruit-title.strawberry {
+  margin-bottom: 19px;
+}
+
 .hero-straw-element {
   margin: 0 auto;
-  margin-bottom: 17px;
+  /* margin-bottom: 15px; */
 }
 
 .element-text.strawberry {
