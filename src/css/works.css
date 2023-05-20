@@ -1,1 +1,11 @@
 /* no empty */
+.hero_title_works {
+    max-width: 1440px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 188px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
