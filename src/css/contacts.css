@@ -106,6 +106,7 @@
 }
 
 .contacts-input {
+    padding: 15px 126px 15px 24px;
     width: 292px;
     height: 48px;
 
@@ -117,10 +118,6 @@
 .contacts-wrap-input {
     position: relative;
     display: flex;
-}
-
-.contacts-input {
-    padding: 15px 24px;
 }
 
 .contacts-input:focus {
