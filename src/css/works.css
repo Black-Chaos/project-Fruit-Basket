@@ -17,7 +17,11 @@
 }
 .fon_text {
     font-weight: 700;
+<<<<<<< Updated upstream
     width: 750px;
+=======
+    width: 620px;
+>>>>>>> Stashed changes
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
