@@ -9,3 +9,13 @@
     background-position: center;
     background-size: cover;
 }
+.fon_text {
+    font-weight: 700;
+    width: 561px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
