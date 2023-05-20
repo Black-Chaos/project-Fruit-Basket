@@ -9,13 +9,36 @@
     background-position: center;
     background-size: cover;
 }
+.container_works{
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+}
 .fon_text {
     font-weight: 700;
-    width: 561px;
+    width: 750px;
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.text_o {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width:515px;
+    height: 54px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -0.04em;
 }
