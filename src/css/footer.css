@@ -7,6 +7,9 @@
 .footer-img{
 border-radius: 100px;
 margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -95,4 +98,44 @@ margin-bottom: 20px;
 .footer-contacts-address{
     max-width: 130px;
     text-align: center;
+}
+
+@media screen and (min-width: 768px)
+{
+    .container{
+        padding: 0 32px;
+        display: flex;
+    }
+
+    .footer-soc-wrapper{
+        margin-left: auto;
+
+    }
+    .footer-nav-list{
+        margin-top: 80px;
+    }
+    .footer-navigation{
+        margin: 0;
+    }
+    .footer-soc-icon-list{
+    margin-top: 48px;
+    }
+    .footer-contacts-list{
+        align-items: flex-start;
+    }
+    .footer-contacts-address{
+        text-align: unset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
