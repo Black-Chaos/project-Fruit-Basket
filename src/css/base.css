@@ -65,4 +65,5 @@ section {
 
 svg {
   fill: currentColor;
+  stroke: currentColor;
 }
