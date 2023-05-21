@@ -59,7 +59,9 @@
     outline: none;
 }
 
-
+.icon-close {
+    opacity: 0;
+}
 .is-open .icon-menu  {
     opacity: 0;
 }
@@ -91,13 +93,6 @@
     transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
-}
-
 .menu-nav {
     margin-top: 124px;
     text-align: center;
@@ -116,14 +111,10 @@
     min-width: 28px;
 
     background-color: transparent;
+    color: var(--second-bg);
 
     margin: 0;
     padding: 0;
-    cursor: pointer;
     border: none;
     outline: none;
-}
-
-.icon-basket-menu {
-    fill: var(--second-bg);
 }
