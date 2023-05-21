@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fresh Harvest Box</title>
     <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-        />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     
-    <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-45456217.js"></script>
-    <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-62aed76c.css">
+    <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-6df9755a.js"></script>
+    <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-8f79c370.css">
   </head>
   <body>
     <header class="header">
@@ -432,59 +432,132 @@
 </footer>
 
 
-    <div class="overlay">      
+    <div class="overlay js-overlay-modal">
       <div data-modal="order">
-    <div class="container-order modal">
-        <button class="close-btn" type="button" aria-label="close-icon" js-modal-close>
-            <svg class="close-icon" width="14" height="14">
-            <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
-            </svg>
-        </button>
-        <h2 class="order-title">YOUR ORDER</h2>
-        <form class="order-form" name="basket-form">
-            <!-- Basket cards -->
-            <div class="basket-cards">
-                <div class="basket-card">
-                    <input class="basket-checkbox" type="checkbox" name="strawberry-basket" id="strawberry-basket" required>
-                    <label class="basket-label" for="strawberry-basket">Strawberry Basket</label>
-                    <p class="basket-plant">Plant</p>
-                    <img srcset="/project-Fruit-Basket/assets/strawberry-fd4d5159.png 1x, /project-Fruit-Basket/assets/strawberry@2x-6f40047d.png 2x" 
-                        src="/project-Fruit-Basket/assets/strawberry-fd4d5159.png" alt="Strawberry Basket" width="173" height="196">
-                </div>
-                <div class="basket-card">
-                    <input class="basket-checkbox" type="checkbox" name="apple-basket" id="apple-basket" required>
-                    <label class="basket-label" for="apple-basket">Apple Basket</label>
-                    <p class="basket-plant">Plant</p>
-                    <img srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x" 
-                        src="/project-Fruit-Basket/assets/apple-69cbd681.png" alt="Apple Basket" width="229" height="196">
-                </div>
-                <div class="basket-card">
-                    <input class="basket-checkbox" type="checkbox" name="fruits-basket" id="fruits-basket" required>
-                    <label class="basket-label" for="fruits-basket">Fruits Basket</label>
-                    <p class="basket-plant">Plant</p>
-                    <img srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x" 
-                        src="/project-Fruit-Basket/assets/fruits-505476ae.png" alt="Fruits Basket" width="229" height="196">
-                </div>
-            </div>
-            <!-- Customer data input -->
-            <div>
-                <input class="modal-form-input" type="text" name="full_name_client" minlength="2" placeholder="Enter full name..." required>
-            </div>
-            <div>
-                <input class="modal-form-input" type="email" name="client_mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Enter email..." required>
-            </div>
-            <div>
-                <input class="modal-form-input" type="text" name="banking_card" pattern="[0-9]{16}" title="Enter 16 numbers" placeholder="Enter card.." required>
-            </div>
-            <textarea class="modal-form-textarea" name="client_message" rows="5" placeholder="Enter comments..."></textarea>
-            <button class="submit-btn" type="submit">Submit</button>
-        </form>
-        <picture class="girl">
-            <img srcset="/project-Fruit-Basket/assets/girl-74b34880.png 1x, /project-Fruit-Basket/assets/girl@2x-2cfcc87d.png 2x"
-                src="/project-Fruit-Basket/assets/girl-74b34880.png" alt="Girl with bananas" width="469" height="467">
-        </picture>
-    </div>
+  <div class="container-order modal">
+    <button
+      class="close-btn js-modal-close"
+      type="button"
+      aria-label="close-icon"
+      js-modal-close
+    >
+      <svg class="close-icon" width="14" height="14">
+        <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
+      </svg>
+    </button>
+    <h2 class="order-title">YOUR ORDER</h2>
+    <form class="order-form" name="basket-form">
+      <!-- Basket cards -->
+      <div class="basket-cards">
+        <div class="basket-card">
+          <input
+            class="basket-checkbox"
+            type="checkbox"
+            name="strawberry-basket"
+            id="strawberry-basket"
+            required
+          />
+          <label class="basket-label" for="strawberry-basket"
+            >Strawberry Basket</label
+          >
+          <p class="basket-plant">Plant</p>
+          <img
+            srcset="/project-Fruit-Basket/assets/strawberry-fd4d5159.png 1x, /project-Fruit-Basket/assets/strawberry@2x-6f40047d.png 2x"
+            src="/project-Fruit-Basket/assets/strawberry-fd4d5159.png"
+            alt="Strawberry Basket"
+            width="173"
+            height="196"
+          />
+        </div>
+        <div class="basket-card">
+          <input
+            class="basket-checkbox"
+            type="checkbox"
+            name="apple-basket"
+            id="apple-basket"
+            required
+          />
+          <label class="basket-label" for="apple-basket">Apple Basket</label>
+          <p class="basket-plant">Plant</p>
+          <img
+            srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x"
+            src="/project-Fruit-Basket/assets/apple-69cbd681.png"
+            alt="Apple Basket"
+            width="229"
+            height="196"
+          />
+        </div>
+        <div class="basket-card">
+          <input
+            class="basket-checkbox"
+            type="checkbox"
+            name="fruits-basket"
+            id="fruits-basket"
+            required
+          />
+          <label class="basket-label" for="fruits-basket">Fruits Basket</label>
+          <p class="basket-plant">Plant</p>
+          <img
+            srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x"
+            src="/project-Fruit-Basket/assets/fruits-505476ae.png"
+            alt="Fruits Basket"
+            width="229"
+            height="196"
+          />
+        </div>
+      </div>
+      <!-- Customer data input -->
+      <div>
+        <input
+          class="modal-form-input"
+          type="text"
+          name="full_name_client"
+          minlength="2"
+          placeholder="Enter full name..."
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="modal-form-input"
+          type="email"
+          name="client_mail"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          placeholder="Enter email..."
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="modal-form-input"
+          type="text"
+          name="banking_card"
+          pattern="[0-9]{16}"
+          title="Enter 16 numbers"
+          placeholder="Enter card.."
+          required
+        />
+      </div>
+      <textarea
+        class="modal-form-textarea"
+        name="client_message"
+        rows="5"
+        placeholder="Enter comments..."
+      ></textarea>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
+    <picture class="girl">
+      <img
+        srcset="/project-Fruit-Basket/assets/girl-74b34880.png 1x, /project-Fruit-Basket/assets/girl@2x-2cfcc87d.png 2x"
+        src="/project-Fruit-Basket/assets/girl-74b34880.png"
+        alt="Girl with bananas"
+        width="469"
+        height="467"
+      />
+    </picture>
+  </div>
 </div>
+
       <div class="thank modal" data-modal="thx">
   <button
     type="button"
@@ -524,14 +597,13 @@
 </div>
 
     </div>
-    
+
     <script
-            defer
-            src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-            crossorigin="anonymous">
-        </script>
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
-    <script defer src="../mobile-menu.js"></script>
   </body>
 </html>
