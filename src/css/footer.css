@@ -94,13 +94,13 @@ margin-right: auto;
     font-style: normal;
 }
 .footer-contacts-address{
-    max-width: 130px;
-    text-align: center;
+    max-width: 120px;
+    text-align:center;
 }
 
 @media screen and (min-width: 768px) 
 {
-    .container{
+    .wrapper{
         display: flex;
     }
 
@@ -121,6 +121,9 @@ margin-right: auto;
     .footer-contacts-address{
         text-align: unset;
     }
+    .address-number{display: flex;}
+
+
     .footer-logotip{
         margin: 0;
     }
