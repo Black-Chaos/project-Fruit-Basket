@@ -1,3 +1,134 @@
 /* Header */
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+
+    background-color: var(--second-bg);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+    padding: 16px 0;
+
+    color: var(--brand-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.logo:hover {
+    color: var(--card-accent-color);
+}
+.logo:focus {
+    color: var(--card-accent-color);
+}
+
+.basket-btn {
+    display: none;
+}
+.basket-btn:hover {
+    color: var(--card-accent-color);
+}
+.basket-btn:focus {
+    color: var(--card-accent-color);
+}
+
+.menu-toggle {
+    min-height: 24px;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.icon-menu {
+    fill: var(--brand-color);
+}
+.icon-close {
+    fill: var(--brand-color);
+}
+.is-open .icon-menu  {
+    opacity: 0;
+}
+.is-open .icon-close {
+    opacity: 1;
+    
+}
+
 
 /* Mobile menu */
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    padding: 50px 20px 0;
+    background-color: var(--brand-color);
+    z-index: 999;
+
+    transform: translateX(100%);
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+}
+
+.menu-nav {
+    margin-top: 124px;
+    text-align: center;
+}
+
+.menu-item {
+    margin-bottom: 16px;
+}
+
+.menu-link {
+    color: var(--second-bg);
+}
+
+.menu-basket-btn {
+    min-height: 28px;
+    min-width: 28px;
+
+    background-color: transparent;
+
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.icon-basket-menu {
+    fill: var(--second-bg);
+}
