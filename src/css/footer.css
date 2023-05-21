@@ -17,7 +17,7 @@ margin-right: auto;
 .footer-logotip{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     gap: 8px;
     margin-bottom: 24px;
 }
@@ -28,7 +28,7 @@ margin-right: auto;
 
 .footer-logo{
     font-weight: 700;
-    align-items: center;
+    
     text-align: center;
     text-transform: uppercase;
     color:var(--brand-color);
@@ -46,7 +46,6 @@ margin-right: auto;
 }
 .footer-nav-item{
     line-height: 18px;
-    align-items: center;
     text-align: center;
     color: var(--brand-color);
 }
@@ -74,7 +73,7 @@ margin-right: auto;
     padding: 8px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 .footer-soc-icon-link:is(:hover, :focus){
@@ -82,7 +81,6 @@ margin-right: auto;
 }
 .footer-soc-icon{
     fill:var(--brand-color);
-    align-items: center;
 }
 .footer-contacts-list{
     display: flex;
@@ -100,10 +98,9 @@ margin-right: auto;
     text-align: center;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) 
 {
     .container{
-        padding: 0 32px;
         display: flex;
     }
 
@@ -114,9 +111,7 @@ margin-right: auto;
     .footer-nav-list{
         margin-top: 80px;
     }
-    .footer-navigation{
-        margin: 0;
-    }
+
     .footer-soc-icon-list{
     margin-top: 48px;
     }
@@ -126,10 +121,26 @@ margin-right: auto;
     .footer-contacts-address{
         text-align: unset;
     }
+    .footer-logotip{
+        margin: 0;
+    }
+    .footer-navigation {
+        margin-bottom: 0;
+        }
 
+}
 
-
-
+@media screen and (min-width: 1280px){
+.footer-nav-list{
+    margin-top: 84px;
+    margin-left: 243px;
+}
+.footer-soc-icon-list{
+    margin-top: 0;
+}
+.footer-navigation{
+    display: flex;
+}
 
 
 
