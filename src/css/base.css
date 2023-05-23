@@ -34,13 +34,13 @@ section {
   margin-bottom: 80px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 375px) {
   section {
     margin-bottom: 144px;
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   section {
     margin-bottom: 150px;
   }
@@ -53,15 +53,23 @@ section {
   max-width: 365px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 375px) {
   .container {
-    max-width: 734px;
+    max-width: 775px;
+    padding: 0 20px;
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 768px) {
   .container {
-    max-width: 1246px;
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
   }
 }
 

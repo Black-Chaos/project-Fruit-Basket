@@ -22,7 +22,7 @@
     }
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank {
         width: 600px;
     }
@@ -38,7 +38,7 @@
     height: 24px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank-btn {
         width: 28px;
         height: 28px;
@@ -49,7 +49,7 @@
     display: inline-block;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank-x {
         display: none;
     }
@@ -61,7 +61,7 @@
 
 
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank-x-tab {
         display: inline-block;
     }
@@ -79,7 +79,7 @@
 }
 
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank-words {
         max-width: 391px;
     }
@@ -97,7 +97,7 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .thank-head {
         font-size: 40px;
         line-height: 1.1;
