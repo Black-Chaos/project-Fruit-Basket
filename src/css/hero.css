@@ -1,22 +1,12 @@
 /* Mobile styles */
 
-.hero {
-  padding-top: 56px;
-}
-
-/* Tablet & Desktop styles */
-
-@media only screen and (min-width: 734px) {
-  .hero {
-    padding-top: 64px;
-  }
-}
-
 .hero-container {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  padding-top: 94px;
 
   background-image: url(../img/hero/ban-blurred@1x.png),
     url(../img/hero/straw-blurred@1x.png);
@@ -24,17 +14,17 @@
   background-repeat: no-repeat;
 }
 
+/* Tablet & Desktop styles */
+
 @media only screen and (max-width: 365px) {
   .hero-container {
-    background-position: top 37px left 2px, top -6px right;
-    padding-top: 40px;
+    background-position: top 97px left, top 43px right;
   }
 }
 
 @media only screen and (min-width: 366px) and (max-width: 733px) {
   .hero-container {
-    background-position: top 49px left 2px, top -7px right 6px;
-    padding-top: 40px;
+    background-position: top 103px left 2px, top 43px right 5px;
   }
 }
 
@@ -42,12 +32,12 @@
   .hero-container {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 102px;
 
     background-image: url(../img/hero/ban-blurred-tab.png),
       url(../img/hero/straw-blurred-tab.png);
-    background-position: top 90px left 4px, top -15px right 11px;
+    background-position: top 159px left 8px, top 43px right 17px;
     background-repeat: no-repeat;
-    padding-top: 30px;
 
     row-gap: 71px;
   }
@@ -57,9 +47,8 @@
   .hero-container {
     background-image: url(../img/hero/ban-blurred-desk.png),
       url(../img/hero/straw-blurred-desk.png);
-    background-position: top 108px left 181px, top -16px right 200px;
-    background-size: 225px, 135px;
-    padding-top: 37px;
+    background-position: top 173px left 178px, top 20px right 195px;
+    padding-top: 102px;
 
     align-items: flex-start;
   }
@@ -70,12 +59,11 @@
   top: 0;
   text-transform: uppercase;
   text-align: center;
-  color: white;
 
-  max-width: 335px;
+  width: 335px;
 
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
 
   margin-left: auto;
   margin-right: auto;
@@ -91,23 +79,37 @@
 
 @media only screen and (max-width: 365px) {
   .hero-title {
-    max-width: 322px;
+    max-width: 90%;
+    font-size: 24px;
+    top: 54px;
   }
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 366px) and (max-width: 733px) {
   .hero-title {
-    max-width: 704px;
+    width: 322px;
+
+    top: 54px;
+  }
+}
+
+@media only screen and (min-width: 734px) and (max-width: 1245px) {
+  .hero-title {
+    width: 704px;
     font-size: 50px;
     line-height: 1.08;
+
+    top: 64px;
   }
 }
 
 @media only screen and (min-width: 1246px) {
   .hero-title {
-    max-width: 898px;
+    width: 898px;
     font-size: 64px;
     line-height: 1;
+
+    top: 64px;
   }
 }
 
@@ -172,7 +174,7 @@
 
 .hero-anchor {
   position: absolute;
-  bottom: -28px;
+  bottom: -27px;
 
   min-width: 80px;
   min-height: 80px;
@@ -185,10 +187,12 @@
   text-transform: uppercase;
   text-align: center;
   color: var(--brand-color);
-  background-color: #ffffff;
+  background-color: var(--second-bg);
 
   border: none;
   border-radius: 50%;
+
+  transition: color var(--transition);
 }
 
 .hero-anchor:hover,
@@ -205,7 +209,7 @@
 
 @media only screen and (min-width: 734px) {
   .hero-anchor {
-    bottom: -18px;
+    bottom: -16px;
 
     min-width: 114px;
     min-height: 114px;
@@ -249,7 +253,7 @@
 @media only screen and (min-width: 1246px) {
   .hero-element-left {
     order: -1;
-    margin-top: 344px;
+    margin-top: 286px;
     margin-left: 30px;
   }
 }
@@ -274,7 +278,6 @@
   padding-top: 28px;
   padding-bottom: 43px;
   width: 249px;
-  height: 387px;
   border-radius: 500px;
   background-color: var(--card-accent-color);
   text-align: center;
@@ -283,16 +286,19 @@
 .hero-fruit-title {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 62px;
+  margin-bottom: 61px;
 
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: -0.04em;
+
+  text-shadow: var(--text-shadow);
 }
 
 .hero-fruit-element {
   margin: 0 auto;
+  height: 172px;
 }
 
 .element-text {
@@ -302,7 +308,7 @@
 
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: -0.04em;
   text-shadow: var(--text-shadow);
 
@@ -338,7 +344,7 @@
 @media only screen and (min-width: 1246px) {
   .hero-element-right {
     flex-direction: column-reverse;
-    margin-top: 272px;
+    margin-top: 214px;
     margin-right: 30px;
   }
 }
@@ -361,13 +367,15 @@
 .hero-item {
   padding: 12px 32px;
 
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: -0.04em;
   background-color: transparent;
   text-transform: uppercase;
 
   border-radius: 25px;
-  border: 1px solid white;
+  border: 1px solid var(--prime-text-color);
+
+  text-shadow: var(--text-shadow);
 }
 @media only screen and (max-width: 733px) {
   .hero-item {
@@ -386,16 +394,9 @@
   padding-top: 28px;
   padding-bottom: 40px;
   width: 249px;
-  height: 387px;
   border-radius: 500px;
   background-color: var(--card-second-accent-color);
   text-align: center;
-}
-
-@media only screen and (min-width: 734px) {
-  .hero-fruit.strawberry {
-    display: inline-block;
-  }
 }
 
 .hero-fruit-title.strawberry {
