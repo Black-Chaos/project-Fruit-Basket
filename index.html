@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fresh Harvest Box</title>
     
-    <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-9b61377d.js"></script>
+    <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-967f6b11.js"></script>
     <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-dcc0e910.css">
   </head>
   <body>
@@ -274,7 +274,7 @@
            </li>
            
        </ul>
-       <button class="fruits-btn js-open-modal" type="button" data-modal="order"><span class="fruits-span">ORDER</span>  
+       <button class="fruits-btn" type="button" data-modal-open><span class="fruits-span">ORDER</span>  
         <svg class="fruits-btn-icon" width="14" height="14">
             <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-arrow"></use>
           </svg>   
@@ -377,10 +377,10 @@
         Order your box today and start enjoying the best that nature has to
         offer!
       </p>
-      <form>
+      <form class="modal-form">
         <div class="contacts-wrap-input">
           <input
-            class="contacts-input"
+            class="contacts-input modal-field-input"
             type="email"
             name="email"
             placeholder="Enter email..."
@@ -388,9 +388,8 @@
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           />
           <button
-            class="contacts-btn js-open-modal"
+            class="contacts-btn open-modal-btn"
             type="submit"
-            data-modal="thx"
           >
             send
           </button>
@@ -506,6 +505,7 @@
       class="close-btn js-modal-close"
       type="button"
       aria-label="close-icon"
+      data-modal-close
     >
       <svg class="close-icon" width="14" height="14">
         <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
@@ -624,10 +624,10 @@
   </div>
 </div>
 
-      <div class="thank modal" data-modal="thx">
+      <div class="thank thx-modal">
   <button
     type="button"
-    class="thank-btn js-modal-close"
+    class="thank-btn close-btn"
     aria-label="close thanks button"
   >
     <svg class="thank-x" width="24px" height="24px" stroke="var(--second-bg)">
