@@ -279,7 +279,6 @@
   padding-top: 28px;
   padding-bottom: 43px;
   width: 249px;
-  height: 387px;
   border-radius: 500px;
   background-color: var(--card-accent-color);
   text-align: center;
@@ -288,16 +287,19 @@
 .hero-fruit-title {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 62px;
+  margin-bottom: 61px;
 
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.04em;
+
+  text-shadow: var(--text-shadow);
 }
 
 .hero-fruit-element {
   margin: 0 auto;
+  height: 172px;
 }
 
 .element-text {
@@ -373,6 +375,8 @@
 
   border-radius: 25px;
   border: 1px solid white;
+
+  text-shadow: var(--text-shadow);
 }
 @media only screen and (max-width: 733px) {
   .hero-item {
@@ -391,7 +395,6 @@
   padding-top: 28px;
   padding-bottom: 40px;
   width: 249px;
-  height: 387px;
   border-radius: 500px;
   background-color: var(--card-second-accent-color);
   text-align: center;
