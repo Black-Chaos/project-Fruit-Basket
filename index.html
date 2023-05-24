@@ -7,7 +7,7 @@
     <title>Fresh Harvest Box</title>
     
     <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-967f6b11.js"></script>
-    <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-627fe8e8.css">
+    <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-68170d43.css">
   </head>
   <body>
     <header class="header">
@@ -124,11 +124,11 @@
             srcset="/project-Fruit-Basket/assets/watermelon@1x-81c931c5.avif 1x, /project-Fruit-Basket/assets/watermelon@2x-3fd3f981.avif 2x"
           />
           <source
-            srcset="/project-Fruit-Basket/assets/watermelon@1x-11fa6b0b.png 1x, /project-Fruit-Basket/assets/watermelon@2x-96e5e52a.png 2x"
+            srcset="/project-Fruit-Basket/assets/watermelon@1x-2d055444.png 1x, /project-Fruit-Basket/assets/watermelon@2x-729a6ad5.png 2x"
           />
           <img
             class="hero-fruit-element"
-            src="/project-Fruit-Basket/assets/watermelon@1x-11fa6b0b.png"
+            src="/project-Fruit-Basket/assets/watermelon@1x-2d055444.png"
             alt="watermelon fruit"
             width="239"
             height="172"
@@ -156,11 +156,11 @@
             srcset="/project-Fruit-Basket/assets/basket-straw@1x-0223d9bc.avif 1x, /project-Fruit-Basket/assets/basket-straw@2x-ad929f44.avif 2x"
           />
           <source
-            srcset="/project-Fruit-Basket/assets/basket-straw@1x-4f255ca1.png 1x, /project-Fruit-Basket/assets/basket-straw@2x-8ee92fe3.png 2x"
+            srcset="/project-Fruit-Basket/assets/basket-straw@1x-df2fc31f.png 1x, /project-Fruit-Basket/assets/basket-straw@2x-d4413ec5.png 2x"
           />
           <img
             class="hero-straw-element"
-            src="/project-Fruit-Basket/assets/basket-straw@1x-4f255ca1.png"
+            src="/project-Fruit-Basket/assets/basket-straw@1x-df2fc31f.png"
             alt="basket with strawberries"
             width="239"
             height="185"
@@ -205,7 +205,7 @@
     <div class="thumb">
       <img
         class="hiw-img"
-        src="../img/works/hiw.gif"
+        src="/project-Fruit-Basket/assets/hiw-c01acdc2.gif"
         alt="Fruit preview"
         width="860"
         height="476"
@@ -537,129 +537,171 @@
 
 
     <div class="overlay js-overlay-modal">
-      <div data-modal="order">
-  <div class="container-order modal">
+      <div class="container-order order-modal">
     <button
       class="close-btn js-modal-close"
       type="button"
       aria-label="close-icon"
       data-modal-close
     >
-      <svg class="close-icon" width="14" height="14">
+      <svg class="close-icon" width="28" height="28" stroke="var(--brand-color)">
         <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
       </svg>
     </button>
     <h2 class="order-title">YOUR ORDER</h2>
     <form class="order-form" name="basket-form">
       <!-- Basket cards -->
-      <div class="basket-cards">
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+    <div class="basket-cards">
+        <label class="basket-label" for="strawberry-basket">
+            <input
+            class="basket-checkbox visually-hidden"
             type="checkbox"
-            name="strawberry-basket"
+            name="basket"
             id="strawberry-basket"
-            required
-          />
-          <label class="basket-label" for="strawberry-basket"
-            >Strawberry Basket</label
-          >
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="/project-Fruit-Basket/assets/strawberry-83f5e798.png 1x, /project-Fruit-Basket/assets/strawberry@2x-04631f96.png 2x"
-            src="/project-Fruit-Basket/assets/strawberry-83f5e798.png"
-            alt="Strawberry Basket"
-            width="173"
-            height="196"
-          />
-        </div>
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+            checked
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Strawberry&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img basket-img-straw">
+                <source 
+                srcset="/project-Fruit-Basket/assets/strawberry_result-1a64cfb4.avif 1x, /project-Fruit-Basket/assets/strawberry@2x_result-0f6a41ce.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strawberry-fd4d5159.png 1x, /project-Fruit-Basket/assets/strawberry@2x-6f40047d.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strtab-c550ed10.avif 1x, /project-Fruit-Basket/assets/strtab@2x-765d7aa3.avif 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strtab-8604eab9.png 1x, /project-Fruit-Basket/assets/strtab@2x-e63d1f2b.png 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strm_result-58d59c2e.avif 1x, /project-Fruit-Basket/assets/strm@2x-3a76e93a.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strm-ce74d3bb.png 1x, /project-Fruit-Basket/assets/strm@2x-058dce0b.png 2x" media="" type="image/png" />
+                <img 
+                    src="/project-Fruit-Basket/assets/strawberry_result-1a64cfb4.avif" 
+                    alt="Strawberry Basket"
+                    width="173"
+                    height="196"
+                     />
+            </picture>
+        </label>
+        <label class="basket-label" for="apple-basket">
+            <input
+            class="basket-checkbox  visually-hidden"
             type="checkbox"
-            name="apple-basket"
+            name="basket"
             id="apple-basket"
-            required
-          />
-          <label class="basket-label" for="apple-basket">Apple Basket</label>
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="/project-Fruit-Basket/assets/apple-0af23015.png 1x, /project-Fruit-Basket/assets/apple@2x-73edc912.png 2x"
-            src="/project-Fruit-Basket/assets/apple-0af23015.png"
-            alt="Apple Basket"
-            width="229"
-            height="196"
-          />
-        </div>
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Apple&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img">
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple_result-4770e7be.avif 1x, /project-Fruit-Basket/assets/apple@2x_result-40889c0f.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple_result-4770e7be.avif 1x, /project-Fruit-Basket/assets/apple@2x_result-40889c0f.avif 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x" media="(min-width: 768px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/applm_result-d1c4de94.avif 1x, /project-Fruit-Basket/assets/appm@2x-6c8fb063.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/appl-8cec34b9.png 1x, /project-Fruit-Basket/assets/appm@2x-d5f21259.png 2x" media="" type="image/png" />
+                
+                <img 
+                    src="/project-Fruit-Basket/assets/apple_result-4770e7be.avif" 
+                    alt="Apple Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>
+        <label class="basket-label" for="fruits-basket">
+            <input
+            class="basket-checkbox visually-hidden"
             type="checkbox"
-            name="fruits-basket"
+            name="basket"
             id="fruits-basket"
-            required
-          />
-          <label class="basket-label" for="fruits-basket">Fruits Basket</label>
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="/project-Fruit-Basket/assets/fruits-dc723ce1.png 1x, /project-Fruit-Basket/assets/fruits@2x-dfb9e6b9.png 2x"
-            src="/project-Fruit-Basket/assets/fruits-dc723ce1.png"
-            alt="Fruits Basket"
-            width="229"
-            height="196"
-          />
-        </div>
-      </div>
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Fruits&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img">
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif 1x, /project-Fruit-Basket/assets/fruits@2x_result-6aceed13.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif 1x, /project-Fruit-Basket/assets/fruits@2x_result-6aceed13.avif 2x" media="(min-width: 768px)"  type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x" media="(min-width: 768px)"  type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/frm_result-ae3559c2.avif 1x, /project-Fruit-Basket/assets/frtm@2x-baebcf56.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fr-c8474d76.png 1x, /project-Fruit-Basket/assets/frtm@2x-d6fbdf20.png 2x" media="" type="image/png" />
+                <img 
+                    src="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif" 
+                    alt="Fruits Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>   
+    </div>
       <!-- Customer data input -->
-      <div>
-        <input
-          class="modal-form-input"
-          type="text"
-          name="full_name_client"
-          minlength="2"
-          placeholder="Enter full name..."
-          required
-        />
-      </div>
-      <div>
-        <input
-          class="modal-form-input"
-          type="email"
-          name="client_mail"
-          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          placeholder="Enter email..."
-          required
-        />
-      </div>
-      <div>
-        <input
-          class="modal-form-input"
-          type="text"
-          name="banking_card"
-          pattern="[0-9]{16}"
-          title="Enter 16 numbers"
-          placeholder="Enter card.."
-          required
-        />
-      </div>
-      <textarea
-        class="modal-form-textarea"
-        name="client_message"
-        rows="5"
-        placeholder="Enter comments..."
-      ></textarea>
+        <div class="modal-input-client">
+            <input
+              class="modal-form-input"
+              type="text"
+              name="full_name_client"
+              minlength="2"
+              placeholder="Enter full name..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="email"
+              name="client_mail"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              placeholder="Enter email..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="text"
+              name="banking_card"
+              pattern="[0-9]{16}"
+              title="Enter 16 numbers"
+              placeholder="Enter card.."
+              required
+            />
+            <textarea
+                class="modal-form-textarea"
+                name="client_message"
+                rows=""
+                placeholder="Enter comments..."
+            ></textarea>
+        </div>
       <button class="submit-btn" type="submit">Submit</button>
     </form>
-    <picture class="girl">
-      <img
-        srcset="/project-Fruit-Basket/assets/girl-62290010.png 1x, /project-Fruit-Basket/assets/girl@2x-fed6f17d.png 2x"
-        src="/project-Fruit-Basket/assets/girl-62290010.png"
-        alt="Girl with bananas"
-        width="469"
-        height="467"
-      />
-    </picture>
-  </div>
 </div>
 
       <div class="thank thx-modal">
