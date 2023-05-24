@@ -1,5 +1,4 @@
-<div class="container-order modal" data-modal="order">
-<!-- <div class="container-order order-modal"> -->
+<div class="container-order order-modal">
     <button
       class="close-btn js-modal-close"
       type="button"
@@ -7,7 +6,7 @@
       data-modal-close
     >
       <svg class="close-icon" width="28" height="28" stroke="var(--brand-color)">
-        <use href="/img/icons.svg#icon-x-tabdesk"></use>
+        <use href="./img/icons.svg#icon-x-tabdesk"></use>
       </svg>
     </button>
     <h2 class="order-title">YOUR ORDER</h2>
@@ -23,36 +22,38 @@
             />
             <span class="check-mark-frame">
                 <svg class="check-mark" width="8" height="8">
-                  <use href="/img/icons.svg#icon-checked"></use>
+                  <use href="./img/icons.svg#icon-checked"></use>
                 </svg>
             </span>
-            <span class="label-h">Strawberry Basket</span>
-            <p class="basket-plant">Plant</p>
-            <picture class="basket-img">
+            <div class="basket-text">
+                <span class="label-h">Strawberry&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img basket-img-straw">
                 <source 
-                srcset="/img/modal-order/strm_result.avif 1x, 
-                /img/modal-order/strm@2x.avif 2x" media="(max-width: 733px)" type="image/avif" />
+                srcset="./img/modal-order/strawberry_result.avif 1x,
+                 ./img/modal-order/strawberry@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
                 <source 
-                srcset="/img/modal-order/strwb.avif 1x,
-                 /img/modal-order/strwb@2x.avif 2x" media="(min-width: 734px)"  type="image/avif" />
-                <source srcset="/img/modal-order/strawberry_result.avif 1x,
-                 /img/modal-order/strawberry@2x_result.avif 2x" media="(min-width: 1246px)" type="image/avif" />
+                srcset="./img/modal-order/strawberry.png 1x,
+                ./img/modal-order/strawberry@2x.png 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strtab.avif 1x,
+                 ./img/modal-order/strtab@2x.avif 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strtab.png 1x,
+                 ./img/modal-order/strtab@2x.png 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strm_result.avif 1x, 
+                ./img/modal-order/strm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strm.png 1x, 
+                ./img/modal-order/strm@2x.png 2x" media="" type="image/avif" />
                 <img 
-                    src="/img/modal-order/strawberry_result.avif" 
+                    src="../img/modal-order/strawberry_result.avif" 
                     alt="Strawberry Basket"
                     width="173"
                     height="196"
-                    loading="lazy" />
-                <!-- <img class="basket-img"
-                srcset="
-                    /img/modal-order/strawberry.png    1x,
-                    /img/modal-order/strawberry@2x.png 2x
-                "
-                src="/img/modal-order/strawberry.png"
-                alt=
-                width="173"
-                height="196"
-                /> -->
+                     />
             </picture>
         </label>
         <label class="basket-label" for="apple-basket">
@@ -64,37 +65,40 @@
             />
             <span class="check-mark-frame">
                 <svg class="check-mark" width="8" height="8">
-                  <use href="/img/icons.svg#icon-checked"></use>
+                  <use href="./img/icons.svg#icon-checked"></use>
                 </svg>
             </span>
-            <span class="label-h">Apple Basket</span>
-            <p class="basket-plant">Plant</p>
+            <div class="basket-text">
+                <span class="label-h">Apple&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
             <picture class="basket-img">
                 <source 
-                srcset="/img/modal-order/applm_result.avif 1x, 
-                /img/modal-order/appm@2x.avif 2x" media="(max-width: 733px)" type="image/avif" />
+                srcset="./img/modal-order/apple_result.avif 1x,
+                 ./img/modal-order/apple@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
                 <source 
-                srcset="/img/modal-order/apple_result.avif 1x,
-                 /img/modal-order/apple@2x_result.avif 2x" media="(min-width: 734px)" sizes="172px 148px" type="image/avif" />
-                <source srcset="/img/modal-order/apple_result.avif 1x,
-                 /img/modal-order/apple@2x_result.avif 2x" media="(min-width: 1246px)" type="image/avif" />
+                srcset="./img/modal-order/apple.png 1x,
+                ./img/modal-order/apple@2x.png 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/apple_result.avif 1x,
+                 ./img/modal-order/apple@2x_result.avif 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/apple.png 1x,
+                 ./img/modal-order/apple@2x.png 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/applm_result.avif 1x, 
+                ./img/modal-order/appm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/appl.png 1x,
+                ./img/modal-order/appm@2x.png 2x" media="" type="image/avif" />
+                
                 <img 
-                    src="/img/modal-order/apple_result.avif" 
+                    src="./img/modal-order/apple_result.avif" 
                     alt="Apple Basket"
                     width="229"
                     height="196"
                     loading="lazy" />
             </picture>
-            <!-- <img class="basket-img"
-                srcset="
-                /img/modal-order/apple.png    1x,
-                /img/modal-order/apple@2x.png 2x
-                "
-                src="/img/modal-order/apple.png"
-                alt="Apple Basket"
-                width="229"
-                height="196"
-            /> -->
         </label>
         <label class="basket-label" for="fruits-basket">
             <input
@@ -105,22 +109,32 @@
             />
             <span class="check-mark-frame">
                 <svg class="check-mark" width="8" height="8">
-                  <use href="/img/icons.svg#icon-checked"></use>
+                  <use href="./img/icons.svg#icon-checked"></use>
                 </svg>
             </span>
-            <div>
-                <span class="label-h">Fruits Basket</span>
+            <div class="basket-text">
+                <span class="label-h">Fruits&nbsp;Basket</span>
                 <p class="basket-plant">Plant</p>
             </div>
             <picture class="basket-img">
                 <source 
-                srcset="/img/modal-order/frm_result.avif 1x, 
-                /img/modal-order/frtm@2x.avif 2x" media="(max-width: 733px)" type="image/avif" />
+                srcset="./img/modal-order/fruits_result.avif 1x,
+                 ./img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
                 <source 
-                srcset="/img/modal-order/fruits_result.avif 1x,
-                 /img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 734px)" sizes="172px 148px" type="image/avif" />
-                <source srcset="/img/modal-order/fruits_result.avif 1x,
-                 /img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 1246px)" type="image/avif" />
+                srcset="./img/modal-order/fruits.png 1x,
+                ./img/modal-order/fruits@2x.png 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fruits_result.avif 1x,
+                 ./img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 768px)"  type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fruits.png 1x,
+                ./img/modal-order/fruits@2x.png 2x" media="(min-width: 768px)"  type="image/avif" />
+                <source 
+                srcset="./img/modal-order/frm_result.avif 1x, 
+                ./img/modal-order/frtm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fr.png 1x,
+                ./img/modal-order/frtm@2x.png 2x" media="" type="image/avif" />
                 <img 
                     src="./img/modal-order/fruits_result.avif" 
                     alt="Fruits Basket"
@@ -128,16 +142,6 @@
                     height="196"
                     loading="lazy" />
             </picture>
-            <!-- <img class="basket-img"
-            srcset="
-                /img/modal-order/fruits.png    1x,
-                /img/modal-order/fruits@2x.png 2x
-            "
-            src="/img/modal-order/fruits.png"
-            alt="Fruits Basket"
-            width="229"
-            height="196"
-            /> -->
         </label>   
     </div>
       <!-- Customer data input -->
@@ -174,7 +178,6 @@
                 placeholder="Enter comments..."
             ></textarea>
         </div>
-
       <button class="submit-btn" type="submit">Submit</button>
     </form>
 </div>
